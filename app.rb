@@ -12,6 +12,5 @@ end
 get('/result') do
 # binding.pry
   @input_number = params.fetch('input_number').to_i.ping_pong
-  # @result = @number.ping_pong
   erb(:result)
 end
